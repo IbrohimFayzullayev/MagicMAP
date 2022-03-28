@@ -67,10 +67,3 @@ navigator.geolocation.getCurrentPosition(function (e) {
     .bindPopup("A pretty CSS3 popup.<br> Easily customizable.")
     .openPopup();
 });
-
-// setTimeout(function () {
-//   console.log(latitude, longitude);
-// }, 3000);
-// // console.log(
-// //   `https://www.google.ru/maps/@${e.coords.latitude},${e.coords.longitude},3z?hl=ru`
-// // );
